@@ -33,14 +33,6 @@ tests/test_rebalancer.py   28 automated pytest cases
 docs/manual_test_cases.md  29 manual test cases (TC-01..TC-29) with traceability
 ```
 
-## Run
-
-```bash
-pip install pytest
-python -m pytest -v
-python -m src.rebalancer     # prints the trade list for account ABC
-```
-
 ## Known limitations / not covered
 
 - UI, export, and permission tests (TC-24 to TC-29) are manual only.
